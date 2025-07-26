@@ -1,0 +1,28 @@
+title: MySite
+email: your-email@example.com
+description: >
+  Modern, responsive Bootstrap 5 site with Home, About, and Contact pages.
+baseurl: ""     # Keep empty unless deploying to a subfolder (e.g., /blog)
+url: ""         # Add your site URL for production, e.g., https://mysite.com
+
+# Optional social handles
+twitter_username: ""
+github_username: ""
+
+# Build settings: no blog theme needed, just pure HTML
+theme:           # Remove or comment out if not using any Jekyll theme
+
+# Plugins: none needed unless you add features
+plugins: []
+
+# Exclude files/folders from the site output
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - README.md
+
+# Include any extra files (optional, e.g., CNAME for custom domains)
+# include:
+#   - CNAME
